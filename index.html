@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Задача  1
+
+
+        // Запросить у пользователя первое число через prompt
+        let num1 = prompt("Введите первое число: ");
+
+        // Запросить у пользователя второе число через prompt
+        let num2 = prompt("Введите второе число: ");
+
+        // Преобразовать введенные значения в числа
+        num1 = Number(num1);
+        num2 = Number(num2);
+
+        // Вычислить сумму, разность, произведение и отношение
+        let sum = num1 + num2;
+        let diff = num1 - num2;
+        let product = num1 * num2;
+        let quotient = num1 / num2;
+
+        // Вывести результаты в консоль
+        console.log("Сумма: " + sum);
+        console.log("Разность: " + diff);
+        console.log("Произведение: " + product);
+        console.log("Отношение: " + quotient);
+
+
+
+
+        //Задача 2
+        // Запросить у пользователя число через prompt
+        let number = prompt("Введите число: ");
+
+        // Преобразовать введенное значение в число
+        number = Number(number);
+
+        // Проверить, является ли число четным или нечетным
+        if (number % 2 === 0) {
+            console.log("Четное");
+        } else {
+            console.log("Нечетное");
+        }
+
+        //Задача 3
+        let numbers = parseInt(prompt("Введите число:"));
+
+        if (number % 2 === 0) {
+            console.log(number);
+        } else {
+            console.log(number + 1);
+        }
+
+
+    </script>
+</body>
+
+</html>
